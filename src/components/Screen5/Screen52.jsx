@@ -40,14 +40,16 @@ export default function Screen52({ onMenuClick }) {
       <div className="absolute inset-0 bg-black/65"></div>
 
       {/* Content container — markazda */}
-      <div className="relative z-10 h-full flex flex-col justify-center items-center px-6 lg:px-24 text-center">
-        {/* Header */}
-        <h4 className="text-white font-bold text-[15px] uppercase tracking-widest mb-12 text-left self-start">
+      <div className="relative z-10 h-full flex flex-col justify-center items-center px-6  lg:px-24 text-center">
+     <div className="self-start ">
+         <h4 className="text-white font-bold text-[35px] mb-5 uppercase tracking-widest mb-12 text-left self-start">
           STEPS & ICONS
         </h4>
+        {/* Header */}
 
+     </div>
         {/* Steps */}
-        <div className="flex flex-col ml-50 gap-10 w-full max-w-[900px]">
+        <div className="flex flex-col ml-90 gap-10 w-full max-w-[900px]">
           {steps.map((step, i) => (
             <div key={i} className="flex flex-col lg:flex-row items-start lg:items-center gap-6 lg:gap-10">
               {/* Icon + Title */}

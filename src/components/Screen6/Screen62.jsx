@@ -18,7 +18,7 @@ export default function Screen62({ onMenuClick, setModal }) {
 
       <div className="absolute inset-0 bg-black/50" />
       
-      <div className="absolute left-0 top-1/2 -translate-y-1/2 z-20 hidden lg:flex flex-col items-center gap-12 ml-[65px]">
+      <div className="absolute left-0 top-1/2 -translate-y-1/2 z-20 hidden lg:flex flex-col items-center gap-12 ml-[69px]">
         <h1 className="[writing-mode:vertical-rl] rotate-180 text-white/50 font-light text-sm uppercase tracking-[4px]">
           ремонт квартир под ключ
         </h1>
@@ -30,6 +30,12 @@ export default function Screen62({ onMenuClick, setModal }) {
           <FaYoutube className="hover:text-white transition-colors duration-300 cursor-pointer" />
         </div>
       </div>
+
+
+
+
+
+      
 
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen text-center gap-8 px-6">
 
@@ -65,7 +71,7 @@ export default function Screen62({ onMenuClick, setModal }) {
         <div className="w-full max-w-sm h-px bg-white/10" />
 
         <div
-          className="flex items-center gap-4 cursor-pointer group"
+          className="flex items-center   gap-4 cursor-pointer group"
           onClick={onMenuClick}
         >
           <span

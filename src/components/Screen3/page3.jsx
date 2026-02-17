@@ -27,7 +27,6 @@ export default function Page3({onMenuClick}) {
             <div className="absolute inset-0 bg-black/60" />
  <div className="absolute left-0 top-1/2 pt-[95px] ml-[25px] -translate-y-1/2 z-20 hidden lg:flex flex-col items-center gap-12">
      
-       {/* Vertical Text */}
        <h1 className="[writing-mode:vertical-rl] rotate-180 text-white/50 font-light text-sm uppercase tracking-[4px]">
          ремонт квартир под ключ
        </h1>
