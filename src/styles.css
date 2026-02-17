@@ -1,0 +1,51 @@
+/* Swiper styles for vertical scroll */
+.mySwiper {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.mySwiper .swiper-wrapper {
+  height: 100vh;
+}
+
+.mySwiper .swiper-slide {
+  height: 100vh !important;
+  width: 100%;
+}
+
+.mySwiper .swiper-pagination {
+  right: 30px;
+  left: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.mySwiper .swiper-pagination-bullet {
+  width: 7px;
+  height: 7px;
+  background: #FFFFFF4D;
+  border-radius: 50%;
+  /* background: url('/nuqta.png') center no-repeat; */
+  background-size: contain;
+  opacity: 0.5;
+  margin: 0;
+  transition: all 0.3s ease;
+}
+
+.mySwiper .swiper-pagination-bullet-active {
+  opacity: 1;
+  transform: scale(1.5);
+  /* background: url('/nuqta.png') center no-repeat; */
+  background: #FFAC30;
+  background-size: contain;
+}
+
+/* Hide pagination on mobile */
+@media (max-width: 1024px) {
+  .mySwiper .swiper-pagination {
+    display: none;
+  }
+}
