@@ -29,23 +29,18 @@ export default function Screen51({ onMenuClick }) {
         </div>
       </div>
 
-      {/* Main Content */}
       <main className="relative z-10 h-full  flex flex-col pt-25 items-center px-6 lg:px-24">
         <div className="w-full max-w-6xl">
-          {/* Top Title */}
           <h4 className="text-white text-sm lg:text-base font-medium tracking-[3px] text-center mb-16">
             6 STEPS TO YOUR <span className="text-white/70">DREAM HOUSE:</span>
           </h4>
 
-          {/* Steps Row */}
           <div className="flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-20">
-            {/* Step Number (Circle) */}
             <div className="relative flex items-center justify-center">
               <img src="/doira.png" alt="" className="w-32 h-32 lg:w-40 lg:h-40 object-contain" />
               <span className="absolute text-white text-5xl font-light">3</span>
             </div>
 
-            {/* Icon and Title */}
             <div className="flex items-center gap-6">
               <img src="/icon.svg" alt="" className="w-10 h-10 lg:w-14 lg:h-14" />
               <h2 className="text-white text-2xl lg:text-4xl font-bold leading-tight uppercase tracking-wider">
@@ -53,7 +48,6 @@ export default function Screen51({ onMenuClick }) {
               </h2>
             </div>
 
-            {/* Right Arrow (Dizayndagi > belgisi) */}
             <div className="hidden lg:block text-white/50 text-4xl font-thin">
               &gt;
             </div>
@@ -65,7 +59,6 @@ export default function Screen51({ onMenuClick }) {
         </div>
       </main>
 
-      {/* Form Card (Bottom Right) */}
      <div className="relative lg:absolute lg:bottom-0 lg:right-0 z-30 w-full max-w-[440px] bg-white px-6 sm:px-10 py-8 shadow-2xl mx-auto lg:mx-0 mb-8 lg:mb-0">
           <form className="space-y-6">
             <div>

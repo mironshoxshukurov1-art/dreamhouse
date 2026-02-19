@@ -40,7 +40,7 @@ export default function Screen1({onMenuClick}) {
           </div>
 
 
-<div className="absolute bottom-92 left-50 right-0 z-10">
+<div className="absolute pt-9 left-50 right-0 z-10">
   <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-12">
     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-16">
       

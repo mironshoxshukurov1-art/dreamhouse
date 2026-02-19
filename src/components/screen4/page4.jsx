@@ -17,15 +17,12 @@ export default function Page4({onMenuClick}) {
 
        <div className="absolute left-0 top-1/2 pt-[95px] ml-[65px] -translate-y-1/2 z-20 hidden lg:flex flex-col items-center gap-12">
            
-             {/* Vertical Text */}
              <h1 className="[writing-mode:vertical-rl] rotate-180 text-white/50 font-light text-sm uppercase tracking-[4px]">
                ремонт квартир под ключ
              </h1>
            
-             {/* Divider */}
              <div className="w-px h-24 bg-white/30"></div>
            
-             {/* Social Icons */}
              <div className="flex flex-col gap-6 text-white/40 text-lg">
                <FaFacebookF className="hover:text-white transition-colors duration-300 cursor-pointer" />
                <FaInstagram className="hover:text-white transition-colors duration-300 cursor-pointer" />
@@ -35,7 +32,7 @@ export default function Page4({onMenuClick}) {
            
            </div>
         <main className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-12 py-16">
-       <img src="/Group 4.png" alt="" className="pt-[109px]" />
+       <img src="/Group 4.png" alt="" className="pt-[109px] max-md:hidden" />
         </main>
 
        

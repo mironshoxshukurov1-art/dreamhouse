@@ -91,7 +91,6 @@ export default function Screen61({ onMenuClick }) {
 
       <div className="absolute bottom-0 h-[280px] bg-white w-[calc(100%-200px)] px-12">
 
-  {/* Title Row */}
   <div className="flex items-center justify-between pt-8">
     
     <h4 className="flex items-center gap-5 font-light text-black text-[24px] tracking-[0.5em] uppercase">
@@ -99,7 +98,6 @@ export default function Screen61({ onMenuClick }) {
       <span>Turnkey Construction of Houses</span>
     </h4>
 
-    {/* Arrow Line */}
     <span>
       <svg
         width="150"
@@ -126,10 +124,8 @@ export default function Screen61({ onMenuClick }) {
 
   </div>
 
-  {/* Divider */}
   <div className="w-full h-px bg-gray-200 my-8"></div>
 
-  {/* Contact Row */}
   <div className="flex flex-wrap justify-between items-center text-sm text-gray-700">
     
     <div className="flex items-center gap-2">

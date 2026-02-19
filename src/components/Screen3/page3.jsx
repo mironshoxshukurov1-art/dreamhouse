@@ -31,10 +31,8 @@ export default function Page3({onMenuClick}) {
          ремонт квартир под ключ
        </h1>
      
-       {/* Divider */}
        <div className="w-px h-24 bg-white/30"></div>
      
-       {/* Social Icons */}
        <div className="flex flex-col gap-6 text-white/40 text-lg">
          <FaFacebookF className="hover:text-white transition-colors duration-300 cursor-pointer" />
          <FaInstagram className="hover:text-white transition-colors duration-300 cursor-pointer" />

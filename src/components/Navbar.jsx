@@ -13,12 +13,12 @@ export default function Navbar({ onMenuClick }) {
           <img
             src="/logo-5-(1).svg"
             alt="logo"
-            className=" h-[57px] pr-[50px] "
+            className=" h-[57px] pr-[50px]  "
           />
 
           <div className="flex items-center">
             <HiMenuAlt1
-              className="text-white text-3xl cursor-pointer hover:text-[#FFAC30] transition ml-[63px]"
+              className="text-white text-3xl cursor-pointer max-md:hidden hover:text-[#FFAC30] transition ml-[63px]"
               onClick={onMenuClick}
             />
 

@@ -23,6 +23,12 @@ import Screen62 from "./components/Screen6/Screen62";
 import Screen72 from "./components/Screen7/Screen72";
 import Elite1 from "./components/Gallery/Elite1";
 import Screen71 from "./components/Screen7/Screen71";
+import Mobile from "./components/mobile/Mobile";
+import Mobile1 from "./components/mobile/Mobile1";
+import Mobile3 from "./components/mobile/Mobile3";
+import Mobile4 from "./components/mobile/Mobile3";
+import Mobile5 from "./components/mobile/Mobile5";
+import Mobile6 from "./components/mobile/Mobile6";
 
 export default function App() {
   const swiperRef = React.useRef(null);
@@ -35,71 +41,78 @@ export default function App() {
   };
 
   return (
-    <Swiper
-      ref={swiperRef}
-      direction="vertical"
-      pagination={{
-        clickable: true,
-      }}
-      modules={[Pagination]}
-      className="mySwiper"
-      onSlideChange={(swiper) => {
-        console.log("Slide changed to:", swiper.activeIndex);
-      }}
-    >
-      <SwiperSlide>
-        <Screen1 onMenuClick={goToScreen61} />
-      </SwiperSlide>
+    <div>
+      <div className="max-md:hidden ">
+        <Swiper
+          ref={swiperRef}
+          direction="vertical"
+          pagination={{
+            clickable: true,
+          }}
+          modules={[Pagination]}
+          className="mySwiper"
+          onSlideChange={(swiper) => {
+            console.log("Slide changed to:", swiper.activeIndex);
+          }}
+        >
+          <SwiperSlide>
+            <Screen1 onMenuClick={goToScreen61} />
+          </SwiperSlide>
 
-      <SwiperSlide>
-        <Screen2 onMenuClick={goToScreen61} />
-      </SwiperSlide>
+          <SwiperSlide>
+            <Screen2 onMenuClick={goToScreen61} />
+          </SwiperSlide>
 
-      <SwiperSlide>
-        <Page3 onMenuClick={goToScreen61} />
-      </SwiperSlide>
+          <SwiperSlide>
+            <Page3 onMenuClick={goToScreen61} />
+          </SwiperSlide>
 
-      <SwiperSlide>
-        <Pagehover3 onMenuClick={goToScreen61} />
-      </SwiperSlide>
+          <SwiperSlide>
+            <Pagehover3 onMenuClick={goToScreen61} />
+          </SwiperSlide>
 
-      <SwiperSlide>
-        <Page4 onMenuClick={goToScreen61} />
-      </SwiperSlide>
+          <SwiperSlide>
+            <Page4 onMenuClick={goToScreen61} />
+          </SwiperSlide>
 
-      <SwiperSlide>
-        <Page4hover onMenuClick={goToScreen61} />
-      </SwiperSlide>
+          <SwiperSlide>
+            <Page4hover onMenuClick={goToScreen61} />
+          </SwiperSlide>
 
-      <SwiperSlide>
-        <Screen51 onMenuClick={goToScreen61} />
-      </SwiperSlide>
+          <SwiperSlide>
+            <Screen51 onMenuClick={goToScreen61} />
+          </SwiperSlide>
 
-      <SwiperSlide>
-        <Screen52 onMenuClick={goToScreen61} />
-      </SwiperSlide>
+          <SwiperSlide>
+            <Screen52 onMenuClick={goToScreen61} />
+          </SwiperSlide>
 
-      <SwiperSlide>
-        <Screen61 onMenuClick={goToScreen61} />
-      </SwiperSlide>
+          <SwiperSlide>
+            <Screen61 onMenuClick={goToScreen61} />
+          </SwiperSlide>
 
-      {/* <SwiperSlide>
+          {/* <SwiperSlide>
         <Screen62 />
       </SwiperSlide> */}
 
-      <SwiperSlide>
-        <Screen71 />
-      </SwiperSlide>
+          <SwiperSlide>
+            <Screen71 />
+          </SwiperSlide>
 
-      <SwiperSlide>
-        <Elite1 />
-      </SwiperSlide>
+          <SwiperSlide>
+            <Elite1 />
+          </SwiperSlide>
+        </Swiper>
+      </div>
 
-
-
-
-        
-
-    </Swiper>
+      <div className="md:hidden max-md:block ">
+        <Mobile />
+        <Mobile1 />
+        <Mobile3 />
+        <Mobile4 />
+        <Mobile5 />
+        <Mobile6 />
+      </div>
+    </div>
   );
 }
